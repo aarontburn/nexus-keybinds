@@ -2,8 +2,8 @@ module.exports = {
     excluded: [],
     included: [],
     build: {
-        name: "Sample Internal Module",
-        id: "developer.Sample_Internal_Module",
+        name: "Keybinds",
+        id: "aarontburn.Keybinds",
         process: "./process/main.js",
         replace: [
             {

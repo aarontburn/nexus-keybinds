@@ -19,6 +19,10 @@ export default class SampleProcess extends Process {
     public async initialize(): Promise<void> {
         await super.initialize();
         console.log(`[${MODULE_NAME}] has been initialized.`);
+
+        
+
+        await this.requestExternal('nexus.Main', "swap-to-module")
     }
 
     // Add settings/section headers.
